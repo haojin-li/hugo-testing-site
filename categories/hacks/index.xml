@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hacks on Haojin's Blog</title><link>/categories/hacks/</link><description>Recent content in Hacks on Haojin's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>@2018-2023 Haojin Li</copyright><lastBuildDate>Sat, 17 Oct 2020 21:21:47 +0000</lastBuildDate><atom:link href="/categories/hacks/index.xml" rel="self" type="application/rss+xml"/><item><title>winwin-hexo-editor 完全部署指南</title><link>/posts/2020-10-17-winwin-hexo-editor.md/</link><pubDate>Sat, 17 Oct 2020 21:21:47 +0000</pubDate><guid>/posts/2020-10-17-winwin-hexo-editor.md/</guid><description>&lt;h2 id="在这之前你需要准备好" class="relative group">在这之前你需要准备好 &lt;/h2>
+&lt;ul>
+&lt;li>一台安装了宝塔面板的linux centOS服务器&lt;/li>
+&lt;li>hexo博客已经成功部署到了服务器上&lt;/li>
+&lt;li>能够访问ssh&lt;/li>
+&lt;/ul>
+&lt;h2 id="下载hexo-editor到服务器端" class="relative group">下载Hexo Editor到服务器端 &lt;/h2>
+&lt;p>定位到Hexo博客的根目录下，执行以下命令&lt;/p>
+&lt;h3 id="国内下载" class="relative group">国内下载 &lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git clone https://gitee.com/winwin_2011/winwin-hexo-editor
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="国外下载" class="relative group">国外下载 &lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git clone https://github.com/YuJianghao/winwin-hexo-editor
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>刷新一下宝塔面板，我们就会看到下载好的&lt;code>winwin-hexo-editor&lt;/code>文件夹&lt;/p></description></item><item><title>Blogging Online with Code-Server</title><link>/posts/2020-06-10-vs-code-online-configuration.md/</link><pubDate>Thu, 14 May 2020 02:42:50 +0000</pubDate><guid>/posts/2020-06-10-vs-code-online-configuration.md/</guid><description>&lt;h1 id="before" class="relative group">Before &lt;/h1>
+&lt;hr>
+&lt;p>I used to utilize hexo extension &lt;code>hexo-admin&lt;/code> to write my blog and deploy webpage online. However, it&amp;rsquo;s not very stable with bugs sometimes.&lt;/p>
+&lt;h1 id="now" class="relative group">Now &lt;/h1>
+&lt;hr>
+&lt;p>A talented person recommended me to use &lt;code>code-server&lt;/code> which is a online version of &lt;code>VScode&lt;/code>. I was struggling with comfiguring it on my server even untill now. On the other hand, it&amp;rsquo;s more stable and convenient for me to use than before, so I am satisfied. Hope I can deploy &lt;code>Nodejs&lt;/code> on that soon.&lt;/p></description></item><item><title>Chrome Extension recommendation</title><link>/posts/2019-11-03-chrome-extension-recommendation.md/</link><pubDate>Sun, 03 Nov 2019 11:59:39 +0000</pubDate><guid>/posts/2019-11-03-chrome-extension-recommendation.md/</guid><description>&lt;p>&lt;em>&lt;strong>First of all, let&amp;rsquo;s see what extensions I am using now.&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="mx-auto my-0 rounded-md" src="http://ww1.sinaimg.cn/large/bea775ably1g8m5mmshj9j20xh01uq3l.jpg" alt="my daily extensions" />
+&lt;/figure>
+&lt;/p>
+&lt;h1 id="why-do-i-write-the-blog" class="relative group">Why do I write the blog? &lt;/h1>
+&lt;hr>
+&lt;p>I was using &lt;code>Microsoft Edge&lt;/code> since I am a one hundred percent fan of Microsoft, also because I believe that the original one is the best one just like original desktop wallpaper, original antivirus software and so on. However, I have changed to &lt;code>Google Chrome Browser&lt;/code> a few month ago. I realized that &lt;code>Chrome&lt;/code> is truly worthy of the name. A multitude of wide-ranging extension, highly personalized costume and super fast response speed are the reason that I love this browser so much.&lt;/p>
+&lt;p>When I explore the &lt;code>Google Extension Shop&lt;/code>, I found many interesting and perfect extensions. After my trying and experiencing, I got a list of the best extension recommended personally. Hope the following extensions would be helpful for you. &lt;strong>Feel free to ask any kind of questions in the comment zone at the bottom of the blog!&lt;/strong>&lt;/p>
+&lt;h1 id="google-helper" class="relative group">Google Helper &lt;/h1>
+&lt;hr>
+&lt;h2 id="function" class="relative group">Function &lt;/h2>
+&lt;p>The name has already indicated the function of the extension which is helping you to surf on google&amp;hellip; You can surf on the Internet around the world with it. I recommend it because its stability and stability. Just a Chrome extension can be the global proxy of your computer, which means you are allowed to watch &lt;code>YouTube&lt;/code> without using Chrome.&lt;/p>
+&lt;img src="http://ww1.sinaimg.cn/large/bea775ably1g8lbqzy71gj208109kmxe.jpg" alt="google helper dashboard" style="zoom: 67%;" />
+&lt;p>It also has a version for mobile phone including &lt;code>IOS&lt;/code> and &lt;code>Android&lt;/code>.&lt;/p>
+&lt;h2 id="how-to-use-it" class="relative group">How to use it &lt;/h2>
+&lt;ol>
+&lt;li>Download &lt;a
+href="https://www.google.com/intl/zh-CN/chrome/"
+target="_blank" rel="noreferrer noopener"
+>Google Chrome Browser&lt;/a> and install it.&lt;/li>
+&lt;li>Download &lt;a
+href="http://googlehelper.net/"
+target="_blank" rel="noreferrer noopener"
+>Google Helper&lt;/a> and &lt;strong>unzip the package&lt;/strong>.&lt;/li>
+&lt;li>Open Chrome and type &lt;code> chrome://extensions/&lt;/code> in the address bar. You will find the same page like the following one .&lt;/li>
+&lt;/ol>
+&lt;img src="http://ww1.sinaimg.cn/large/bea775ably1g8m5vqp9wcj22bc1hc161.jpg" style="zoom:50%;" />
+&lt;ol start="4">
+&lt;li>Press &lt;code>Load unpacked&lt;/code> and a pop-up will appear. Select your unzip extension folder and confirm.&lt;/li>
+&lt;/ol></description></item><item><title>Tech Flow</title><link>/posts/2019-10-03-fantastic-microsoft-event.md/</link><pubDate>Thu, 03 Oct 2019 00:23:51 +0000</pubDate><guid>/posts/2019-10-03-fantastic-microsoft-event.md/</guid><description>&lt;div id="binft">&lt;/div>
+&lt;script>
+var binft = function (r) {
+function t() {
+return b[Math.floor(Math.random() * b.length)]
+}
+function e() {
+return String.fromCharCode(94 * Math.random() + 33)
+}
+function n(r) {
+for (var n = document.createDocumentFragment(), i = 0; r > i; i++) {
+var l = document.createElement("span");
+l.textContent = e(), l.style.color = t(), n.appendChild(l)
+}
+return n
+}
+function i() {
+var t = o[c.skillI];
+c.step ? c.step-- : (c.step = g, c.prefixP &lt; l.length ? (c.prefixP >= 0 &amp;&amp; (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP &lt; t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP &lt; l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d)
+}
+var l = "",
+o = ["We do more than change the world. We create it."].map(function (r) {
+return r + ""
+}),
+a = 2,
+g = 1,
+s = 5,
+d = 75,
+b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"],
+c = {
+text: "",
+prefixP: -s,
+skillI: 0,
+skillP: 0,
+direction: "forward",
+delay: a,
+step: g
+};
+i()
+};
+binft(document.getElementById('binft'));
+&lt;/script>
+&lt;blockquote>
+&lt;p>&lt;em>&lt;strong>We do more than change the world.&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;em>&lt;strong>We create it.&lt;/strong>&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>It&amp;rsquo;s an amazing, fantastic, incredible, unprecedented event about technology products I had ever seen. Now I believe that Microsoft is a company that will change the world more than once.&lt;/p>
+&lt;div class="justified-gallery">
+&lt;p>
+&lt;figure>
+&lt;img class="mx-auto my-0 rounded-md" src="http://ww1.sinaimg.cn/large/bea775ably1g7kcmd330wj20k80c8dg4.jpg" alt="" />
+&lt;/figure>
+&lt;figure>
+&lt;img class="mx-auto my-0 rounded-md" src="http://ww1.sinaimg.cn/large/bea775ably1g7kcmdflf7j21hw1hw1kx.jpg" alt="" />
+&lt;/figure>
+&lt;figure>
+&lt;img class="mx-auto my-0 rounded-md" src="http://ww1.sinaimg.cn/large/bea775ably1g7kcmd4sylj21kw0w0ac3.jpg" alt="" />
+&lt;/figure>
+&lt;figure>
+&lt;img class="mx-auto my-0 rounded-md" src="http://ww1.sinaimg.cn/large/bea775ably1g7kcmd55szj20yn0in76p.jpg" alt="" />
+&lt;/figure>
+&lt;figure>
+&lt;img class="mx-auto my-0 rounded-md" src="http://ww1.sinaimg.cn/large/bea775ably1g7kcmd3uh6j20u00gwjrp.jpg" alt="" />
+&lt;/figure>
+&lt;figure>
+&lt;img class="mx-auto my-0 rounded-md" src="http://ww1.sinaimg.cn/large/bea775ably1g7kcmd3z5lj20k00b90sy.jpg" alt="" />
+&lt;/figure>
+&lt;figure>
+&lt;img class="mx-auto my-0 rounded-md" src="http://ww1.sinaimg.cn/large/bea775ably1g7kcmd3z2ij20j60j6q3h.jpg" alt="" />
+&lt;/figure>
+&lt;figure>
+&lt;img class="mx-auto my-0 rounded-md" src="http://ww1.sinaimg.cn/large/bea775ably1g7kcmd64nmj20k00k0gm2.jpg" alt="" />
+&lt;/figure>
+&lt;figure>
+&lt;img class="mx-auto my-0 rounded-md" src="http://ww1.sinaimg.cn/large/bea775ably1g7kcmd7se6j20k00k0wf3.jpg" alt="" />
+&lt;/figure>
+&lt;/p>
+&lt;/div></description></item><item><title>Markdown 入门指南</title><link>/posts/2019-06-18-markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97.md/</link><pubDate>Tue, 18 Jun 2019 00:52:45 +0000</pubDate><guid>/posts/2019-06-18-markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97.md/</guid><description>什么是Markdown？ Markdown 是一种轻量级标记语言，通过一些简单的符号来表示多级标题、引用等不同属性的文本。对于一般的写作者，我们可以把Markdown理解为word的简约替代方案。</description></item><item><title>VEX programming tips</title><link>/posts/2019-05-25-vex-programming-tips.md/</link><pubDate>Sat, 25 May 2019 00:53:29 +0000</pubDate><guid>/posts/2019-05-25-vex-programming-tips.md/</guid><description>使用万能的电机控制自定义函数 由于电机的端口是一个motor类型的变量，所以我们可以将电机当作变量传参。</description></item><item><title>GIX RHWSS Project Presentation Videos</title><link>/posts/2019-02-16-gix-rhwss-project-presentation-videos.md/</link><pubDate>Sat, 16 Feb 2019 15:58:45 +0000</pubDate><guid>/posts/2019-02-16-gix-rhwss-project-presentation-videos.md/</guid><description>{% youtube wh_07GoQKvk %}</description></item></channel></rss>
